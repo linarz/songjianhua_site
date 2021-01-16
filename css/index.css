@@ -1,0 +1,85 @@
+@charset "utf-8";
+#main{width:1024px;margin: 0 auto;overflow: hidden; }
+.header{width:1024px;height:710px;overflow: hidden;background: url(../images/head.jpg) no-repeat;margin: 0 auto;}
+.head_cont{width: 1024px;height:320px;margin-top: 320px;overflow: hidden;}
+.sjh{width:700px;margin:50px auto auto 320px;overflow: hidden;}
+.sjh p{width:650px;padding:5px;text-indent: 2em;overflow: hidden;}
+
+#nav{height: 45px;width: 96i0px;margin:10px auto 0 auto;overflow: hidden;background: url(../images/nav.jpg) repeat-x;line-height: 45px;font-size: 30px;}
+
+#nav ul{width: 550px;overflow: hidden;float: left;}
+#nav ul li{float: left;height: 45px;margin-left: 10px;width: 120px;text-align: center;}
+#nav ul li a{color: #ffffff;}
+.chose{background: url(../images/li_bg.jpg) no-repeat;}
+.chose a{font-weight: bold;}
+
+.login{margin-left:10px;float: left; color: #ffffff;}
+.text{height:30px;border: none;}
+.btn{width: 45px;height: 21px;border: none;background: url(../images/btn.jpg) no-repeat;margin-left: 10px;}
+
+.bodyer{width: 1024px;overflow: hidden;}
+.content{width: 950px;margin:0 auto;}
+.work{margin:30px auto;}
+.title{text-align: center;}
+.title ul{overflow: hidden;margin: 0 auto;height: 17px;width: 100px;}
+.title ul li{float:left;line-height: 17px;font-size: 15px;font-weight: bold;height:17px;}
+.point{background: url(../images/point.jpg) no-repeat; width: 14px;height: 14px;}
+
+.cont{margin-top: 20px;overflow: hidden;width: 950px;}
+.cont p{font-size: 13px;text-indent: 2em;}
+.show{width: 440px;float: left;overflow: hidden;margin-left: 15px;}
+.show_top{width:433px;height:13px;background: url(../images/show_top.png) no-repeat;}
+.show_center{text-align: center;width: 433px;margin:20px auto;}
+.show_bottom{width:433px;height:13px;background: url(../images/show_bottom.png) no-repeat;}
+.down{margin-left: 40px;font-size: 15px;}
+.mark{text-align:justify;text-justify:distribute-all-lines;/*ie6-8*/text-align-last:justify;/* ie9*/-moz-text-align-last:justify;/*ff*/-webkit-text-align-last:justify;/*chrome 20+*/}
+.down tr{height:30px;line-height: 30px;}
+
+
+.ry3{width: 427px;overflow: hidden; margin: 20px auto 0 auto;}
+.ry3_top{background: url(../images/ry3_top.png) no-repeat;height:8px;width: 427px;}
+.ry3_center{width: 427px;text-align: center;}
+.ry3_bottom{background: url(../images/ry3_bottom.png) no-repeat;height: 8px;width:427px;}
+
+.ry4{width: 936px;overflow: hidden;margin: 20px auto 0 auto;}
+.ry4_top{background: url(../images/ry4_top.png) no-repeat;width:936px;height:19px;}
+.ry4_center{width:936px;text-align: center;}
+.ry4_bottom{background: url(../images/ry4_bottom.png) no-repeat;width:936px;height:19px;}
+
+.ry5{width: 427px;overflow: hidden;margin: 20px auto 0 auto;}
+.ry5_top{background: url(../images/ry5_top.png) no-repeat;width:427px;height:8px;}
+.ry5_center{width:427px;text-align: center;}
+.ry5_bottom{background: url(../images/ry5_bottom.png) no-repeat;width:427px;height:8px;}
+
+/*作品*/
+.zp{width: 297px;overflow: hidden;margin: 20px auto 0 15px;height: 710px;}
+.zp_top{background: url(../images/zp_top.png) no-repeat;width:297px;height:17px;}
+.zp_center{width:297px;text-align: center;height: 630px;}
+.zp_center p {text-indent: 0;}
+.zp_bottom{background: url(../images/zp_bottom.png) no-repeat;width:297px;height:17px;}
+.norms{display: block;font-size: 15px;height: 50px;line-height: 50px;word-break: break-all;}
+
+/*艺术交流*/
+.jl{width: 430px;margin: 30px auto 0 20px;}
+.jl_center{width: 100%; height: 330px;text-align: center; overflow: hidden;}
+.jl_center img {height: 100%;}
+.jl_h780{height: 780px; text-align: center;}
+.h390{height: 390px;}
+.jl_title{font-size: 14px;}
+
+
+/**/
+.h840{height: 840px;}
+.tc{text-align: center;}
+.fl{float: left;}
+
+.bigimg{width:600px;position: fixed;left: 0;top: 0; right: 0;bottom: 0;margin:auto;display: none;z-index:9999;border: 10px solid #fff;}
+.mask{position: fixed;left: 0;top: 0; right: 0;bottom: 0;background-color: #000;opacity:0.5;filter: Alpha(opacity=50);z-index: 98;transition:all 1s;display: none}
+.bigbox{width:840px;background: #fff;border:1px solid #ededed;margin:0 auto;border-radius: 10px;overflow: hidden;padding:10px;}
+.bigbox>.imgbox{width:400px;height:250px;float:left;border-radius:5px;overflow: hidden;margin: 0 10px 10px 10px;}
+.bigbox>.imgbox>img{width:100%;}
+.imgbox:hover{cursor:zoom-in}
+.mask:hover{cursor:zoom-out}
+.mask>img{position: fixed;right:10px;top: 10px;width: 60px;}
+.mask>img:hover{cursor:pointer}
+
